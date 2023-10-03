@@ -1,6 +1,5 @@
 # Lab Report 1
 **Example of using the command with no arguments:**
-
 ![Image](cd.PNG)
 - The working directory was lecture1 that files were cloned into.
 - Command produces no output.
