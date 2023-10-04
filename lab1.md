@@ -15,6 +15,6 @@
 ## Example of using the command with a path to a file as an argument: 
 ![Image](cat.PNG)
 - The working directory was lecture1.
-- Concatinates
+- Concatenates and prints content, given the path.
 - Command produced an output of
 - It is a not an error
