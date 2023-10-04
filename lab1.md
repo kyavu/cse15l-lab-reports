@@ -1,5 +1,20 @@
 # Lab Report 1
 ## Example of using the command with no arguments: 
+![Image](cdg.PNG)
+- The working directory was home.
+- Command produces no output.
+- It is an error as there is no directory to change to therefore, not having an effect.
+
+![Image](lsg.PNG)
+- The working directory was home.
+- Command lists the files and folder in the path, in this case it is lecture1.
+- It is not an error as it is a status-checking command that listed the files in the path.
+
+![Image](catg.PNG)
+- The working directory was home.
+- Command produces no output. Should print the contents of the files in path (there is no content to print in path to do this).
+- It is an error as there is nothing to concatenate and thus, does not show any content.
+
 ![Image](cd.PNG)
 - The working directory was lecture1 that files were cloned into.
 - Command produces no output.
