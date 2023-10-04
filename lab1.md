@@ -14,13 +14,13 @@
 - The working directory was home.
 - Command produces no output. Should print the contents of the files in path (there is no content to print in path to do this).
 - It is an error as there is nothing to concatenate and thus, does not show any content.
-
+  
+## Exmaple of using the command with a path to a directory as an argument: 
 ![Image](cd.PNG)
 - The working directory was lecture1 that files were cloned into.
 - Command produces no output.
 - It is not an error as it simply changing the working directory to given path.
   
-## Exmaple of using the command with a path to a directory as an argument: 
 ![Image](ls.PNG)
 - Working directory was lecture1.
 - Shows the name of files and folder in the directory, lecture1.
