@@ -21,7 +21,7 @@
 - Command produces no output.
 - It is not an error as it simply changing the working directory to given path.
 
-![Image](cd.PNG)
+![Image](lsh.PNG)
 ![Image](ls.PNG)
 - Working directory was lecture1.
 - Shows the name of files and folder in the directory, lecture1.
