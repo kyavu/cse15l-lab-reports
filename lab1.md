@@ -5,7 +5,7 @@
 - Command produces no output.
 - It is not an error as there is no directory to change to therefore, not having an effect.
 
-![Image](lsg.PNG)
+![Image](ls.PNG)
 - The working directory was /home.
 - Command lists the files and folder in the path, in this case it is lecture1.
 - It is not an error as it is a status-checking command that listed the files in the path.
