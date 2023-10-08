@@ -20,7 +20,9 @@
 - The working directory was /lecture1 that files were cloned into.
 - Command produces no output.
 - It is not an error as it simply changing the working directory to given path.
-![Image](ls directory1.PNG) ![Image](ls directory2.PNG)
+  
+![Image](lsdirectory1.PNG) ![Image](lsdirectory2.PNG)
+
 ## Example of using the command with a path to a file as an argument: 
 
 ![Image](lsh.PNG)
