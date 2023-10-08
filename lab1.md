@@ -22,6 +22,9 @@
 - It is not an error as it simply changing the working directory to given path.
   
 ![Image](lsdirectory1.PNG) ![Image](lsdirectory2.PNG)
+- The working directory was /home.
+- Command produces no output.
+- It is not an error as it simply changing the working directory to given path.
 
 ## Example of using the command with a path to a file as an argument: 
 
