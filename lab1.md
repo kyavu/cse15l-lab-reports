@@ -23,7 +23,7 @@
   
 ![Image](lsdirectory1.PNG) ![Image](lsdirectory2.PNG)
 - The working directory was /home for the first screenshot while the second screenshot had /lecture1.
-- Command produces a list of the files in lecture1 but the second screenshot displays an error.
+- Command produces a list of the files in lecture1 but the second screenshot (when adding a path) displays an error.
 - It is not an error in the first screenshot but adding the path of lecture1 and trying to access home caused an error.
 - It cannot access the directory as it does not exist in lecture1. It does however, exist in the first screenshot (home) thus displaying in the first screenshot.
 
