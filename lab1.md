@@ -29,14 +29,14 @@
 
 ## Example of using the command with a path to a file as an argument: 
 
-![Image](lsh.PNG)
-- Working directory was lecture1.
+![Image](lspath.PNG)
+- Working directory was /home.
 - Shows the name of files and folder in the directory, lecture1.
 - Command produced an output of "Hello.java messages README"
 - It is not an error as it is a status-checking command.
-- 
+  
 ![Image](catpath.PNG)
-- The working directory was lecture1.
+- The working directory was /home.
 - Concatenates and prints content, given the path.
 - Command produced an output of the contents in the file Hello.java.
 - It is a not an error as all contents were printed in the file.
