@@ -35,7 +35,7 @@
 - Command produced an output of "Hello.java messages README"
 - It is not an error as it is a status-checking command.
 - 
-![Image](cat.PNG)
+![Image](catpath.PNG)
 - The working directory was lecture1.
 - Concatenates and prints content, given the path.
 - Command produced an output of the contents in the file Hello.java.
