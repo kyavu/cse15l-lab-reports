@@ -21,7 +21,7 @@
 ![Image](cddirect.PNG)
 - The working directory was /lecture1 that files were cloned into.
 - Command produces no output.
-- It is not an error as it simply changing the working directory to given path.
+- It is not an error as it simply changing the working directory to given path /messages.
   
 ![Image](lsdirect.PNG) 
 - The working directory was /home.
