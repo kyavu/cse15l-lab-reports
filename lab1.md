@@ -30,6 +30,8 @@
 
 ## Example of using the command with a path to a file as an argument: 
 
+![Image](cdpath.PNG)
+
 ![Image](lspath.PNG)
 - Working directory was /home.
 - Shows the name of files and folder in the directory, lecture1.
