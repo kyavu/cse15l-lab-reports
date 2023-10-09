@@ -13,7 +13,7 @@
 ![Image](catg.PNG)
 - The working directory was /home.
 - Command produces no output. Should print the contents of the files in path (there is no content to print in path to do this).
-- It is an error as there is nothing to concatenate and thus, does not show any content.
+- It is not an error as there is nothing to concatenate and thus, does not show any content.
   
 ## Exmaple of using the command with a path to a directory as an argument: 
 ![Image](cd.PNG)
