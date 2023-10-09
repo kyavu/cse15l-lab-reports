@@ -36,7 +36,10 @@
 ## Example of using the command with a path to a file as an argument: 
 
 ![Image](cdpath.PNG)
-
+- Working directory was /home.
+- Command produced no ouput. However, the directory changed to /lecture1/messages.
+- It is not an error as it is changing the directory.
+  
 ![Image](lspath.PNG)
 - Working directory was /home.
 - Shows the name of files and folder in the directory, lecture1.
