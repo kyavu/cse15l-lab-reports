@@ -28,6 +28,9 @@
 - Command produces a list of the files in lecture1.
 - It is not an error as there was access to the path of /home/lecture1 thus being able to output a list of all the files.
 
+![Image](catdirect.PNG) 
+- 
+
 ## Example of using the command with a path to a file as an argument: 
 
 ![Image](cdpath.PNG)
