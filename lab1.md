@@ -21,7 +21,7 @@
 - Command produces no output.
 - It is not an error as it simply changing the working directory to given path.
   
-![Image](lsdirectory1.PNG) ![Image](lsdirectory2.PNG)
+![Image](lsdirect.PNG) 
 - The working directory was /home for the first screenshot while the second screenshot had /lecture1.
 - Command produces a list of the files in lecture1 but the second screenshot (when adding a path) displays an error.
 - It is not an error in the first screenshot but adding the path of lecture1 and trying to access home caused an error.
