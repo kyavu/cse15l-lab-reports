@@ -38,7 +38,7 @@
 ![Image](cdpath.PNG)
 - Working directory was /home.
 - Command produced no ouput. However, the directory changed to /lecture1/messages.
-- It is not an error as it is changing the directory.
+- It is not an error as it is changing the directory and ls or cat would be utilized to list or print contents.
   
 ![Image](lspath.PNG)
 - Working directory was /home.
