@@ -19,7 +19,7 @@
 ## Exmaple of using the command with a path to a directory as an argument: 
 
 ![Image](cddirect.PNG)
-- The working directory was /lecture1 that files were cloned into.
+- The working directory was /home/lecture1/messages that files were cloned into.
 - Command produces no output.
 - It is not an error as it simply changing the working directory to given path /messages.
   
