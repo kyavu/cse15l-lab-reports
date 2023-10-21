@@ -31,7 +31,7 @@
 ![Image](catdirect.PNG) 
 - The working directory was /home.
 - Command produces a confirmation of how the path was a directory.
-- It is not an error as there is nothing to concatenate or print and thus, does not print any content.
+- It is an error as there is nothing to concatenate or print and thus, does not print any content.
   
 ## Example of using the command with a path to a file as an argument: 
 
