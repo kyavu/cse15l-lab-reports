@@ -42,9 +42,9 @@
   
 ![Image](lspath.png)
 - Working directory was /home/lecture1.
-- Shows the name of files and folder in the directory, lecture1.
-- Command produced an output of "Hello.java messages README"
-- It is not an error as it is a status-checking command.
+- Lists the name of files in directory.
+- Command produced an output of "Hello.java"
+- It is not an error as it is a status-checking command and listed the file in the directory.
   
 ![Image](catpath.PNG)
 - The working directory was /home.
