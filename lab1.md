@@ -40,7 +40,7 @@
 - Command produced an error.
 - It is an error as it is changing the directory but Hello.java is not a directory. The commands, ls or cat would be utilized to list or print contents of the file.
   
-![Image](lspath.PNG)
+![Image](lspath.png)
 - Working directory was /home/lecture1.
 - Shows the name of files and folder in the directory, lecture1.
 - Command produced an output of "Hello.java messages README"
