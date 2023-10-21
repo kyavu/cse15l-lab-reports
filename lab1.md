@@ -2,7 +2,7 @@
 ## Example of using the command with no arguments: 
 
 ![Image](cdnoarg.PNG)
-- The working directory was /home.
+- The working directory was /home/lecture1.
 - Command produces no output.
 - It is not an error as it is simply changing the directory from /lecture1 to /home when using the command cd.
 
