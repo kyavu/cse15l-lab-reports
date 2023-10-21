@@ -1,7 +1,7 @@
 # Lab Report 1
 ## Example of using the command with no arguments: 
 
-![Image](cdnoarg.PNG)
+![Image](cdnoarg.png)
 - The working directory was /home/lecture1.
 - Command produces no output.
 - It is not an error as it is simply changing the directory from /lecture1 to /home when using the command cd.
@@ -35,13 +35,13 @@
   
 ## Example of using the command with a path to a file as an argument: 
 
-![Image](cdpath.PNG)
-- Working directory was /home.
-- Command produced no ouput. However, the directory changed to /lecture1/messages.
-- It is not an error as it is changing the directory and ls or cat would be utilized to list or print contents.
+![Image](cdpath.png)
+- Working directory was /home/lecture1.
+- Command produced an error.
+- It is an error as it is changing the directory but Hello.java is not a directory. The commands, ls or cat would be utilized to list or print contents of the file.
   
 ![Image](lspath.PNG)
-- Working directory was /home.
+- Working directory was /home/lecture1.
 - Shows the name of files and folder in the directory, lecture1.
 - Command produced an output of "Hello.java messages README"
 - It is not an error as it is a status-checking command.
