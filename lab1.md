@@ -1,10 +1,10 @@
 # Lab Report 1
 ## Example of using the command with no arguments: 
 
-![Image](cdg.PNG)
-- The working directory was /home.
+![Image](cdnoarg.PNG)
+- The working directory was /lecture1.
 - Command produces no output.
-- It is not an error as there is no directory to change to therefore, not having an effect.
+- It is not an error as it is simply changing the directory from /lecture1 to /home when using the command cd.
 
 ![Image](lsg.PNG)
 - The working directory was /home.
