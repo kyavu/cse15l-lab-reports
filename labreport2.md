@@ -82,4 +82,4 @@ class StringServer {
 ---
 
 # Part 3
-- Something I learned in lab 3 was the scp command which can copy files or directories to two systems. I thought this was interesting as I have heard of the word scp but I never truly knew what it meant or how to use it. Combined with the man scp command, I was able to learn more about scp in the terminal itself also which I thought was interesting.
+- Something I learned from lab 3 was the scp command which can copy files or directories to two systems. I thought this was interesting as I have heard of the word scp but I never truly knew what it meant or how to use it. Combined with the man scp command, I was able to learn more about scp in the terminal itself also which I thought was interesting.
