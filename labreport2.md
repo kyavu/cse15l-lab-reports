@@ -50,14 +50,14 @@ class StringServer {
 
 ---
 
->>/add-message?s=Hello
+## /add-message?s=Hello
 
 ![Image](hello.png)
 - The working directory was /home/lecture1.
 - Command produces no output.
 - It is not an error as it is simply changing the directory from /lecture1 to /home when using the command cd.
 
->>/add-message?s=How are you
+## /add-message?s=How are you
 
 ![Image](howareyou.png)
 - The working directory was /home/lecture1.
