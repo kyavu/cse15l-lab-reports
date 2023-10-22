@@ -53,15 +53,17 @@ class StringServer {
 ## /add-message?s=Hello
 
 ![Image](hello.png)
-- The working directory was /home/lecture1.
-- Command produces no output.
-- It is not an error as it is simply changing the directory from /lecture1 to /home when using the command cd.
+- The handleRequest() method was called.
+- The method accepts a URI object, called url in this case, as an argument with a return value of a String.
+- Other values included are: int num, which increments per line and a String object called text.
+- num is incremented by 1 (since this was the first request) while the object, text, is initialized to "Hello."
 
 ## /add-message?s=How are you
 
 ![Image](howareyou.png)
-- The working directory was /home/lecture1.
-- Command produces no output.
-- It is not an error as it is simply changing the directory from /lecture1 to /home when using the command cd.
+- The handleRequest() method was called.
+- The method accepts a URI object, called url in this case, as an argument with a return value of a String.
+- Other values included are: int num, which increments per line and a String object called text.
+- num is incremented by 2 (since this was the second request) while the object, text, is initialized to "How are you."
 
   
