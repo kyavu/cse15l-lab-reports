@@ -20,8 +20,6 @@ class Handler implements URLHandler {
 }
 
 
-import java.io.IOException;
-
 class StringServer {
    StringServer() {
    }
