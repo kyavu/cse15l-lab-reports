@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.net.URI;
 
 class Handler implements URLHandler {
+
     int num = 0; //initialized at 0 (nothing in list yet)
     String text = new String(""); // new object
     public String handleRequest(URI url) {
@@ -28,10 +29,13 @@ class Handler implements URLHandler {
 
 
 class StringServer {
+
    StringServer() {
+   
    }
 
    public static void main(String[] var0) throws IOException {
+   
       if (var0.length == 0) {
          System.out.println("Missing port number! Try any number between 1024 to 49151");
       } else {
@@ -41,7 +45,7 @@ class StringServer {
    }
 }
 
->>/add-message?s=Hello(  ) 
+>>/add-message?s=Hello
 ![Image](hello.png)
 - The working directory was /home/lecture1.
 - Command produces no output.
