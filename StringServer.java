@@ -10,7 +10,7 @@ class Handler implements URLHandler {
             String[] parameters = url.getQuery().split("=");
             if (parameters[0].equals("s")) {
                 num += 1;
-                return (num + ". " + parameters[1] + "\n") 
+                return (num + ". " + parameters[1] + "\n");
             }
   
             return "404 Not Found!";
