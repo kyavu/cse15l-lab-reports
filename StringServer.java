@@ -18,3 +18,20 @@ class Handler implements URLHandler {
         return "";
     }
 }
+
+
+import java.io.IOException;
+
+class StringServer {
+   StringServer() {
+   }
+
+   public static void main(String[] var0) throws IOException {
+      if (var0.length == 0) {
+         System.out.println("Missing port number! Try any number between 1024 to 49151");
+      } else {
+         int var1 = Integer.parseInt(var0[0]);
+         Server.start(var1, new Handler());
+      }
+   }
+}
