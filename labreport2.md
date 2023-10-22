@@ -73,7 +73,7 @@ Private key
 
 ![Image](privatekey.png)
 
-<br />Public key
+<br />Public key <br />
 ![Image](publickey.png)
 
 <br />Terminal interaction without being asked for a password
