@@ -61,9 +61,12 @@ class StringServer {
 ## /add-message?s=How are you
 
 ![Image](howareyou.png)
-- The handleRequest() method was called.
+- Similar to the previous request, the handleRequest() method was called.
 - The method accepts a URI object, called url in this case, as an argument with a return value of a String.
 - Other values included are: int num, which increments per line and a String object called text.
 - num is incremented by 2 (since this was the second request) while the object, text, is initialized to "How are you."
 
-  
+---
+
+# Part 2
+
