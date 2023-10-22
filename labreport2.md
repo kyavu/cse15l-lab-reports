@@ -50,7 +50,7 @@ class StringServer {
 
 ---
 
-## /add-message?s=Hello
+### /add-message?s=Hello
 
 ![Image](hello.png)
 - The handleRequest() method was called.
@@ -58,7 +58,7 @@ class StringServer {
 - Other values included are: int num, which increments per line and a String object called text.
 - num is incremented by 1 (since this was the first request) while the object, text, is initialized to "Hello."
 
-## /add-message?s=How are you
+### /add-message?s=How are you
 
 ![Image](howareyou.png)
 - Similar to the previous request, the handleRequest() method was called.
@@ -69,14 +69,14 @@ class StringServer {
 ---
 
 # Part 2
-**Private key**
+### Private key
 
 ![Image](privatekey.png)
 
-<br />**Public key**<br />
+<br /> ### Public key<br />
 ![Image](publickey.png)
 
-<br />**Terminal interaction without being asked for a password**
+<br />### Terminal interaction without being asked for a password
 ![Image](nopass.png)
 
 ---
