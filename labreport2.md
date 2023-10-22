@@ -72,11 +72,11 @@ class StringServer {
 ### Private key
 
 ![Image](privatekey.png)
-
-<br /> ### Public key<br />
+<br /> 
+### Public key<br />
 ![Image](publickey.png)
-
-<br />### Terminal interaction without being asked for a password
+<br /> 
+### Terminal interaction without being asked for a password
 ![Image](nopass.png)
 
 ---
