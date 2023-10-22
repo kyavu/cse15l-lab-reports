@@ -70,10 +70,10 @@ class StringServer {
 
 # Part 2
 >Private key
->![Image](privatekey.png)
+> ![Image](privatekey.png)
 
 >>Public key
->>![Image](publickey.png)
+>> ![Image](publickey.png)
 
 >>>Terminal interaction without being asked for a password
->>>![Image](nopass.png)
+>>> ![Image](nopass.png)
