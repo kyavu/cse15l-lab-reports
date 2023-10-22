@@ -48,6 +48,8 @@ class StringServer {
    
 }
 
+---
+
 >>/add-message?s=Hello
 
 ![Image](hello.png)
