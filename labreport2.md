@@ -1,6 +1,7 @@
 # Lab Report 2
-## Part 1
-> StringServer.java Code
+> Part 1
+
+StringServer.java Code
 import java.io.IOException;
 import java.net.URI;
 
@@ -45,7 +46,7 @@ class StringServer {
       }
    }
 }
-
+(  ) 
 
 >>/add-message?s=Hello
 ![Image](hello.png)
