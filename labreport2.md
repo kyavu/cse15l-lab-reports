@@ -3,11 +3,11 @@
 
 ### StringServer.java Code
 
-`import java.io.IOException;
+`import java.io.IOException;`
 
-import java.net.URI;
+`import java.net.URI;`
 
-class Handler implements URLHandler {
+`class Handler implements URLHandler {`
 
     int num = 0; //initialized at 0 (nothing in list yet)
     String text = new String(""); // new object
@@ -25,18 +25,15 @@ class Handler implements URLHandler {
             }
             return "";
        }
-}`
+`}`
 
 
 
 
-class StringServer {
-
-   StringServer() {
-   
-   }
-
-   public static void main(String[] var0) throws IOException {
+`class StringServer {`
+  `StringServer() {`
+  `}`
+    `public static void main(String[] var0) throws IOException {`
    
       if (var0.length == 0) {
          System.out.println("Missing port number! Try any number between 1024 to 49151");
@@ -44,16 +41,16 @@ class StringServer {
          int var1 = Integer.parseInt(var0[0]);
          Server.start(var1, new Handler());
       }
-   }
+  ` }`
    
-}
+`}`
 
 ---
 
 ### /add-message?s=Hello
 
 ![Image](hello.png)
-- The handleRequest() method was called.
+- The `handleRequest()` method was called.
 - The method accepts a URI object, called url in this case, as an argument with a return value of a String.
 - Other values included are: int num, which increments per line and a String object called text.
 - num is incremented by 1 (since this was the first request) while the object, text, is initialized to "Hello."
