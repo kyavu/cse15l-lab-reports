@@ -67,7 +67,7 @@ class StringServer {
 ![Image](privatekey.png)
 <br /> 
 ### Public key<br />
-![Image](publickey.png)
+![Image](authokey.png)
 <br /> 
 ### Terminal interaction without being asked for a password
 ![Image](nopass.png)
