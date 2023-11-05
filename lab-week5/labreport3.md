@@ -385,6 +385,7 @@
 ```
 
 - Reasoning: The `find` command would search up to the `maxdepth` of 1, which means it would only search up to the subdirectories in `./technical`.
+  
  **EXAMPLE 2**: `find ./technical -mindepth 2 -type d` (specifying `type d` in order to fit the whole output)
 - Output:
 ```
@@ -406,4 +407,5 @@
 **EXAMPLE 2**: `find ./technical -iname "*ChApter-7.tXt*"`
 - Output: `./technical/911report/chapter-7.txt`
 - Reasoning: The `-iname` ignores the case of `ChApter-7.tXt`, searches the variation of `chapter-7.txt`, and shows the path to the file.
+  
 <br />
