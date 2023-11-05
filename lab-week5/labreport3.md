@@ -1,6 +1,7 @@
 # Lab Report 3
 ## Part 1 - Bugs
 ---
+---
 > A failure-inducing input
 ```
 @Test 
@@ -115,10 +116,11 @@ public class ArrayExamples {
 ---
 ## Part 2 - Researching Commands
 ---
+---
 ### Alternative ways to use the comman `find`:
 > To find a single file by name, `-name` can be used in the form: `find /path/to/search -name ".txt"` [Source](https://www.redhat.com/sysadmin/linux-find-command)
   
-<br />
+---
 
 **EXAMPLE 1**: `find ./technical -name "chapter-1.txt"`
 - Output: `./technical/911report/chapter-1.txt`
@@ -128,11 +130,11 @@ public class ArrayExamples {
 - Output: `./technical/biomed/1468-6708-3-1.txt`
 - Reasoning: Since the file exist, the `find` command returned the path to get to the file `"1468-6708-3-1.txt"`. Otherwise, it would not produce output if it did not exist in `./technical`
 
-<br />
+---
 
 > To find files by a type, `-type` can be used in the form: `find /path/to/search -type f` [Source](https://www.redhat.com/sysadmin/linux-find-command)
   
-<br />
+---
 
 **EXAMPLE 1**: `find ./technical -type d`
 - Output:
@@ -155,6 +157,7 @@ public class ArrayExamples {
 
  **EXAMPLE 2**: `find ./technical -type f`
  - Output: (Only snippet of output as output is large and repetive in terms of having simlar formatting of paths)
+ - 
 ```
 ./technical/plos/journal.pbio.0020125.txt
 ./technical/plos/journal.pbio.0020440.txt
@@ -482,7 +485,7 @@ public class ArrayExamples {
 ```
 - Reasoning: The `find` command would list the path to all the files in the `./techincal` directory since it was specified to `-type f`.
 
-<br />
+---
 
 > To specify the max directory levels to look for, `-maxdepth level` can be used in the form: `find /path/to/search -maxdepth 6` [Source](https://www.redhat.com/sysadmin/linux-find-command)
 - The search would search only up 6 levels.
@@ -510,7 +513,8 @@ public class ArrayExamples {
 ./technical/government/Media
 ```
 - Reasoning: The `find` command would search up to the `maxdepth` of 2. Specified to `type d`, it would search only up to the subdirectory `government` and the other directories within it.
-<br />
+
+---
 
 > To find a file by an specified name and ignoring the case of letters, `-iname` can be used in the form: `find /path/to/search -iname "*filename*.txt"` [Source](https://www.redhat.com/sysadmin/linux-find-command)
 
@@ -523,4 +527,4 @@ public class ArrayExamples {
 - Output: `./technical/911report/chapter-7.txt`
 - Reasoning: The `-iname` ignores the case of `ChApter-7.tXt`, searches the variation of `chapter-7.txt`, and shows the path to the file.
   
-<br />
+---
