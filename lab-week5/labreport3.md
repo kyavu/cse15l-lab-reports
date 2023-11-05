@@ -9,11 +9,9 @@ Alternative ways to use the comman `find`:
   
 <br />
 
-<p> 
 **EXAMPLE 1**: `find ./technical -name "chapter-1.txt"`
 Output: `./technical/911report/chapter-1.txt`
 Reasoning: If the file exists, then the `find` command would return the path to the file. Else, it would not produce output.
-</p>
 
 **EXAMPLE 2**: `find ./technical -name "1468-6708-3-1.txt"`
 Output: `./technical/biomed/1468-6708-3-1.txt`
