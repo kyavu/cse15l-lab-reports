@@ -25,7 +25,7 @@
 
 > The Symptom as the output of running the tests
 
-- !(sym.png)
+![Image](sym.png)
 
 > The bug, as the before-and-after code
 - 
