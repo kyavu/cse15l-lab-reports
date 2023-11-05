@@ -371,8 +371,8 @@
 
 <br />
 
-> To specify the max and min directory levels to look for, `-maxdepth level` and `-mindepth level` can be used in the form: `find /path/to/search -max/mindepth 6` [Source for -maxdepth](https://www.redhat.com/sysadmin/linux-find-command)
-- The search would search only up 6 levels or start at the sixth level.
+> To specify the max directory levels to look for, `-maxdepth level` can be used in the form: `find /path/to/search -maxdepth 6` [Source](https://www.redhat.com/sysadmin/linux-find-command)
+- The search would search only up 6 levels.
   
  **EXAMPLE 1**: `find ./technical -maxdepth 1`
 - Output:
@@ -386,7 +386,7 @@
 
 - Reasoning: The `find` command would search up to the `maxdepth` of 1, which means it would only search up to the subdirectories in `./technical`.
   
- **EXAMPLE 2**: `find ./technical -mindepth 2 -type d` (specifying `type d` in order to fit the whole output)
+ **EXAMPLE 2**: `find ./technical -maxdepth 2 -type d` (specifying `type d` in order to fit the whole output, otherwise it would have similar formatting with multiple files)
 - Output:
 ```
 ./technical/government/About_LSC
@@ -396,7 +396,7 @@
 ./technical/government/Post_Rate_Comm
 ./technical/government/Media
 ```
-- Reasoning: The `find` command would start the search at the `mindepth` of 2, which means it would exclude the directory `./technical` and start searching at the subdirectory. (As the subdirectory is at the value of 2)
+- Reasoning: The `find` command would search up to the `maxdepth` of 2. Specified to `type d`, it would search only up to the subdirectory `government` and the other directories within it.
 <br />
 
 > To find a file by an specified name and ignoring the case of letters, `-iname` can be used in the form: `find /path/to/search -iname "*filename*.txt"` [Source](https://www.redhat.com/sysadmin/linux-find-command)
