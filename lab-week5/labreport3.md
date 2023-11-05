@@ -136,6 +136,7 @@ public class ArrayExamples {
 
 **EXAMPLE 1**: `find ./technical -type d`
 - Output:
+-
 ```
 ./technical
 ./technical/government
@@ -149,6 +150,7 @@ public class ArrayExamples {
 ./technical/biomed
 ./technical/911report
 ```
+
 - Reasoning: The `find` command would list the path to all the directories and subdirectories in the `./techincal` directory.
 
  **EXAMPLE 2**: `find ./technical -type f`
