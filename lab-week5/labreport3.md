@@ -28,7 +28,7 @@ public void testReverseInPlace() {
 ![Image](sym.png)
 
 > The bug, as the before-and-after code
-**Before**
+- **Before**
 ```
 public class ArrayExamples {
 
@@ -69,7 +69,7 @@ public class ArrayExamples {
 }
 ```
 
-**After**
+- **After**
 ```
 public class ArrayExamples {
 
