@@ -24,7 +24,8 @@
 - Test with input of `{3}` did not induce a failure.
 
 > The Symptom as the output of running the tests
-!(sym.png)
+
+- !(sym.png)
 
 > The bug, as the before-and-after code
 - 
