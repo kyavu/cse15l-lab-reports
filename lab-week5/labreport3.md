@@ -4,7 +4,7 @@
 ---
 ## Part 2 - Researching Commands
 ---
-Alternative ways to use the comman `find`:
+### Alternative ways to use the comman `find`:
 - To find a single file by name, `-name` can be used in the form: `find /path/to/search -name ".txt"`
   
 <br />
