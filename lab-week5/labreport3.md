@@ -368,6 +368,9 @@
 ./technical/911report/chapter-11.txt
 ```
 - Reasoning: The `find` command would list the path to all the files in the `./techincal` directory since it was specified to `-type f`.
+
+<br />
+
 > To specify the max and min directory levels to look for, `-maxdepth level` and `-mindepth level` can be used like this `find /path/to/search -maxdepth6`
 - The example would search only up 6 levels.
 <br />
