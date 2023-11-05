@@ -19,7 +19,7 @@
 
 <br />
 
-> To find files by a type, `-type` can be used like this `find /path/to/search -type f`
+> To find files by a type, `-type` can be used in the form: `find /path/to/search -type f`
   
 <br />
 
@@ -371,8 +371,8 @@
 
 <br />
 
-> To specify the max and min directory levels to look for, `-maxdepth level` and `-mindepth level` can be used like this `find /path/to/search -maxdepth6`
-- The example would search only up 6 levels.
+> To specify the max and min directory levels to look for, `-maxdepth level` and `-mindepth level` can be used in the form: `find /path/to/search -maxdepth6`
+- The search would search only up 6 levels.
   
  **EXAMPLE 1**: `find ./technical -maxdepth 1`
 - Output:
