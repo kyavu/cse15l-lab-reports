@@ -111,7 +111,7 @@ public class ArrayExamples {
 
 }
 ```
-- This fix addresses the issue because it iterates up to `arr.length / 2` which would be half of the array and swaps the elements at the beginning and end of the array. The array is then reversed like the expected value of `{ 5, 4, 3, 2, 1 }`.
+- This fix addresses the issue because it iterates up to `arr.length / 2` (half of the array). Then, it switches the element at `[0]` and the element at `[4]` and so forth. It will be reversed like the expected value of `{ 5, 4, 3, 2, 1 }` once there are no more elements to swap.
 ---
 ## Part 2 - Researching Commands
 ---
