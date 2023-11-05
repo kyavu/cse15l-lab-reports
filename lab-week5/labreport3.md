@@ -394,11 +394,16 @@
 ./technical/government/Gen_Account_Office
 ./technical/government/Post_Rate_Comm
 ./technical/government/Media
-
 ```
 - Reasoning: The `find` command would start the search at the `mindepth` of 2, which means it would exclude the directory `./technical` and start searching at the subdirectory. (As the subdirectory is at the value of 2)
 <br />
 
-> To find empty files, `-empty` can be used like this `find /path/to/search -type f -empty`
-- This is a way to declutter and remove any unwanted files that are empty.
+> To find a file by an specified name and ignoring the case of letters, `-iname` can be used in the form: `find /path/to/search -iname "*filename*.txt"`
+**EXAMPLE 1**: `find ./technical -iname "*BILL*.txt"`
+- Output: `./technical/government/Env_Prot_Agen/bill.txt`
+- Reasoning: The `-iname` ignores the case of `BILL.txt`, searches the variation of `bill.txt`, and shows the path to the file.
+  
+**EXAMPLE 2**: `find ./technical -iname "*ChApter-7.tXt*"`
+- Output: `./technical/911report/chapter-7.txt`
+- Reasoning: The `-iname` ignores the case of `ChApter-7.tXt`, searches the variation of `chapter-7.txt`, and shows the path to the file.
 <br />
