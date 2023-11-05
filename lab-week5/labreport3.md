@@ -19,7 +19,7 @@
 
 <br />
 
-- To find files by a type, `type` can be used like this `find /path/to/search -type f`
+> To find files by a type, `type` can be used like this `find /path/to/search -type f`
   
 <br />
 
