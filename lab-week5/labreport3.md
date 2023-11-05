@@ -2,9 +2,16 @@
 ## Part 1 - Bugs
 ---
 > A failure-inducing input
+-
+
 > An input that doesn't induce a failure
+-
+
 > The Symptom as the output of running the tests
+-
+
 > The bug, as the before-and-after code
+- 
 ---
 ## Part 2 - Researching Commands
 ---
