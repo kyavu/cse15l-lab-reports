@@ -140,7 +140,6 @@ public class ArrayExamples {
 
 **EXAMPLE 1**: `find ./technical -type d`
 - Output:
--
 ```
 ./technical
 ./technical/government
