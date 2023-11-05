@@ -5,7 +5,7 @@
 ## Part 2 - Researching Commands
 ---
 ### Alternative ways to use the comman `find`:
-> To find a single file by name, `-name` can be used in the form: `find /path/to/search -name ".txt"`
+> To find a single file by name, `-name` can be used in the form: `find /path/to/search -name ".txt"` [Source](https://www.redhat.com/sysadmin/linux-find-command)
   
 <br />
 
@@ -19,7 +19,7 @@
 
 <br />
 
-> To find files by a type, `-type` can be used in the form: `find /path/to/search -type f`
+> To find files by a type, `-type` can be used in the form: `find /path/to/search -type f` [Source](https://www.redhat.com/sysadmin/linux-find-command)
   
 <br />
 
@@ -371,7 +371,7 @@
 
 <br />
 
-> To specify the max and min directory levels to look for, `-maxdepth level` and `-mindepth level` can be used in the form: `find /path/to/search -max/mindepth 6`
+> To specify the max and min directory levels to look for, `-maxdepth level` and `-mindepth level` can be used in the form: `find /path/to/search -max/mindepth 6` [Source for -maxdepth](https://www.redhat.com/sysadmin/linux-find-command)
 - The search would search only up 6 levels or start at the sixth level.
   
  **EXAMPLE 1**: `find ./technical -maxdepth 1`
@@ -399,7 +399,7 @@
 - Reasoning: The `find` command would start the search at the `mindepth` of 2, which means it would exclude the directory `./technical` and start searching at the subdirectory. (As the subdirectory is at the value of 2)
 <br />
 
-> To find a file by an specified name and ignoring the case of letters, `-iname` can be used in the form: `find /path/to/search -iname "*filename*.txt"`
+> To find a file by an specified name and ignoring the case of letters, `-iname` can be used in the form: `find /path/to/search -iname "*filename*.txt"` [Source](https://www.redhat.com/sysadmin/linux-find-command)
 
 
 **EXAMPLE 1**: `find ./technical -iname "*BILL*.txt"`
