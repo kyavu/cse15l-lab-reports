@@ -400,6 +400,8 @@
 <br />
 
 > To find a file by an specified name and ignoring the case of letters, `-iname` can be used in the form: `find /path/to/search -iname "*filename*.txt"`
+
+
 **EXAMPLE 1**: `find ./technical -iname "*BILL*.txt"`
 - Output: `./technical/government/Env_Prot_Agen/bill.txt`
 - Reasoning: The `-iname` ignores the case of `BILL.txt`, searches the variation of `bill.txt`, and shows the path to the file.
