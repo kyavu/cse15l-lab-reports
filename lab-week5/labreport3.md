@@ -29,8 +29,6 @@ public void testReverseInPlace() {
 ![Image](sym.png)
 
 > The bug, as the before-and-after code
-> **Before**
-````
 ```
 public class ArrayExamples {
 
@@ -70,10 +68,8 @@ public class ArrayExamples {
 
 }
 ```
-````
-> **After**
+--- 
 
-````
 ```
 public class ArrayExamples {
 
@@ -115,8 +111,6 @@ public class ArrayExamples {
 
 }
 ```
-````
-
 - This fix addresses the issue because it iterates up to `arr.length / 2` (half of the array). Then, it switches the element at `[0]` and the element at `[4]` and so forth. It will be reversed like the expected value of `{ 5, 4, 3, 2, 1 }` once there are no more elements to swap.
 ---
 ## Part 2 - Researching Commands
