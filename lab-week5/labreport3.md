@@ -120,7 +120,6 @@ public class ArrayExamples {
 ### Alternative ways to use the comman `find`:
 > To find a single file by name, `-name` can be used in the form: `find /path/to/search -name ".txt"` [Source](https://www.redhat.com/sysadmin/linux-find-command)
   
----
 
 **EXAMPLE 1**: `find ./technical -name "chapter-1.txt"`
 - Output: `./technical/911report/chapter-1.txt`
@@ -134,7 +133,6 @@ public class ArrayExamples {
 
 > To find files by a type, `-type` can be used in the form: `find /path/to/search -type f` [Source](https://www.redhat.com/sysadmin/linux-find-command)
   
----
 
 **EXAMPLE 1**: `find ./technical -type d`
 - Output:
