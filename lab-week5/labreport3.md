@@ -371,8 +371,8 @@
 
 <br />
 
-> To specify the max and min directory levels to look for, `-maxdepth level` and `-mindepth level` can be used in the form: `find /path/to/search -maxdepth6`
-- The search would search only up 6 levels.
+> To specify the max and min directory levels to look for, `-maxdepth level` and `-mindepth level` can be used in the form: `find /path/to/search -max/mindepth 6`
+- The search would search only up 6 levels or start at the sixth level.
   
  **EXAMPLE 1**: `find ./technical -maxdepth 1`
 - Output:
