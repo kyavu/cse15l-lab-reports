@@ -10,12 +10,12 @@ Alternative ways to use the comman `find`:
 <br />
 
 **EXAMPLE 1**: `find ./technical -name "chapter-1.txt"`
-Output: `./technical/911report/chapter-1.txt`
-Reasoning: If the file exists, then the `find` command would return the path to the file. Else, it would not produce output.
+- Output: `./technical/911report/chapter-1.txt`
+- Reasoning: If the file exists, then the `find` command would return the path to the file. Else, it would not produce output.
 
 **EXAMPLE 2**: `find ./technical -name "1468-6708-3-1.txt"`
-Output: `./technical/biomed/1468-6708-3-1.txt`
-Reasoning: Since the file exist, the `find` command returned the path to get to the file `"1468-6708-3-1.txt"`. Otherwise, it would not produce output if it did not exist in `./technical`
+- Output: `./technical/biomed/1468-6708-3-1.txt`
+- Reasoning: Since the file exist, the `find` command returned the path to get to the file `"1468-6708-3-1.txt"`. Otherwise, it would not produce output if it did not exist in `./technical`
 
 <br />
 
