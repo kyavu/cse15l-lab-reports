@@ -122,7 +122,8 @@ public class ArrayExamples {
 ---
 ---
 ### Alternative ways to use the comman `find`:
-> To find a single file by name, `-name` can be used in the form: `find /path/to/search -name ".txt"` [Source](https://www.redhat.com/sysadmin/linux-find-command)
+> To find a single file by name, `-name` can be used in the form: `find /path/to/search -name ".txt"`
+> Source: https://www.redhat.com/sysadmin/linux-find-command
   
 
 **EXAMPLE 1**: `find ./technical -name "chapter-1.txt"`
@@ -135,7 +136,8 @@ public class ArrayExamples {
 
 ---
 
-> To find files by a type, `-type` can be used in the form: `find /path/to/search -type f` [Source](https://www.redhat.com/sysadmin/linux-find-command)
+> To find files by a type, `-type` can be used in the form: `find /path/to/search -type f`
+> Source: https://www.redhat.com/sysadmin/linux-find-command
   
 
 **EXAMPLE 1**: `find ./technical -type d`
@@ -488,7 +490,8 @@ public class ArrayExamples {
 
 ---
 
-> To specify the max directory levels to look for, `-maxdepth level` can be used in the form: `find /path/to/search -maxdepth 6` [Source](https://www.redhat.com/sysadmin/linux-find-command)
+> To specify the max directory levels to look for, `-maxdepth level` can be used in the form: `find /path/to/search -maxdepth 6`
+> Source: https://www.redhat.com/sysadmin/linux-find-command
 - The search would search only up 6 levels.
   
  **EXAMPLE 1**: `find ./technical -maxdepth 1`
@@ -517,7 +520,8 @@ public class ArrayExamples {
 
 ---
 
-> To find a file by an specified name and ignoring the case of letters, `-iname` can be used in the form: `find /path/to/search -iname "*filename*.txt"` [Source](https://www.redhat.com/sysadmin/linux-find-command)
+> To find a file by an specified name and ignoring the case of letters, `-iname` can be used in the form: `find /path/to/search -iname "*filename*.txt"` 
+> Source: https://www.redhat.com/sysadmin/linux-find-command
 
 
 **EXAMPLE 1**: `find ./technical -iname "*BILL*.txt"`
