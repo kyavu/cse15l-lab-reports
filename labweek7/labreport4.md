@@ -53,6 +53,8 @@
 ![Image](branch.png)
 ![Image](gitinit.png)
 ![Image](cddir.png)
+![Image](vimaddlistexam.png)
 ![Image](committestexam.png)
 ![Image](addtests.png)
+![Image](vimlisttest.png)
 ![Image](committest.png)
