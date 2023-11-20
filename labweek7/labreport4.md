@@ -3,7 +3,7 @@
 ---
 ---
 ![Image](logieng6.png)
-- Keys pressed: `Ctrl-C`, `ssh cs15lfa23tg@ieng6.ucsd.edu`, `<enter>`
+- Keys pressed: `Command-C`, `ssh cs15lfa23tg@ieng6.ucsd.edu`, `<enter>`
 > Copy and pasted login. This logs into the ieng6 specific account.
 
 ---
