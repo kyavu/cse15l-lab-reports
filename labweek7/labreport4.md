@@ -24,7 +24,7 @@
 ## Run the tests, demonstrating that they fail
 ---
 ---
-![Image](test.png)
+![Image](fail.png)
 - Keys pressed: `bash test.sh`, `<enter>`
 > This will run the tests from `ListExamplesTest.java` and produces a failure output due to an error in `ListExamples.java`
 
