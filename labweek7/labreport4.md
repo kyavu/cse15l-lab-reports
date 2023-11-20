@@ -3,8 +3,8 @@
 ---
 ---
 ![Image](logieng6.png)
-- Keys pressed: `ssh cs15lfa23tg@ieng6.ucsd.edu`, `<enter>`
-> This logs into the ieng6 specific account.
+- Keys pressed: `Ctrl-C`, `ssh cs15lfa23tg@ieng6.ucsd.edu`, `<enter>`
+> Copy and pasted login. This logs into the ieng6 specific account.
 
 ---
 ## Clone your fork of the repository from your Github account (using the SSH URL)
