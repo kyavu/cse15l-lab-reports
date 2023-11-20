@@ -25,7 +25,7 @@
 ---
 ---
 ![Image](test.png)
-- Keys pressed: `bash test.sh`
+- Keys pressed: `bash test.sh`, `<enter>`
 > This will run the tests from `ListExamplesTest.java` and produces a failure output due to an error in `ListExamples.java`
 
 ---
@@ -33,6 +33,9 @@
 ---
 ---
 
+- Keys pressed: `vim ListExamples.java`, `<enter>`
+> This will open the existing file of `ListExamples.java` with vim.
+- Keys pressed: `:44`, `e`, `x`, `i`, "2", `<esc>` `:wq` `<enter>`
 ---
 ## Run the tests, demonstrating that they now succeed
 ---
