@@ -19,11 +19,14 @@
 > This will add Github.com as a recognized host and the `>>` would append stdout of the command to file. Thus, avoiding a yes/no prompt about accepting new connections (during first connection).
 - Keys pressed: `ssh -T git@github.com`, `<enter>`
 > Ensures connection and checks it. Outputs: "Hi kyavu! You've successfully authenticated, but GitHub does not provide shell access."
+
 ---
 ## Run the tests, demonstrating that they fail
 ---
 ---
 ![Image](test.png)
+- Keys pressed: `bash test.sh`
+> This will run the tests from `ListExamplesTest.java` and produces a failure output due to an error in `ListExamples.java`
 
 ---
 ## Edit the code file to fix the failing test
