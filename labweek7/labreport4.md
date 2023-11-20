@@ -2,12 +2,13 @@
 ## Log into ieng6
 ---
 ---
-
+![Image](logieng6.png)
 
 ---
 ## Clone your fork of the repository from your Github account (using the SSH URL)
 ---
 ---
+![Image](sshurl.png)
 
 ---
 ## Run the tests, demonstrating that they fail
