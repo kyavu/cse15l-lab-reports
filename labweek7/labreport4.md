@@ -86,17 +86,17 @@
 
 ---
 ![Image](vimlisttest.png)
-- Keys pressed: `vim ListExamplesTests.java`, `<enter>`
+- Keys pressed: `vim ListExamplesTests.java`,  `<enter>`
 > This adds `ListExamples.java` into the repository.
 ---
 
 ---
 ![Image](addtests.png)
-- Keys pressed: `git add ListExamplesTests.java`, `<enter>`
-> This creates a new git repository.
+- Keys pressed: `git add ListExamplesTests.java`, `<enter>`, `ls`, `<enter>`, `vim test.sh`, `<enter>`, `git add test.sh`, `<enter>`, `ls`, `<enter>`
+> This `ListExamplesTests.java` and `test.sh` into the repository.
 ---
 
 ---
 ![Image](committest.png)
-- Keys pressed: `git init`, `<enter>`
-> This creates a new git repository.
+- Keys pressed: `git commit -m "test.sh"`, `<enter>`
+> This commits and has a commit message (where both `ListExamplesTests.java` and `test.sh` were committed) to the repository.
