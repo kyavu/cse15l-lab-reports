@@ -32,16 +32,21 @@
 ## Edit the code file to fix the failing test
 ---
 ---
-
+![Image](edit.png)
 - Keys pressed: `vim ListExamples.java`, `<enter>`
 > This will open the existing file of `ListExamples.java` with vim.
-- Keys pressed: `:44`, `e`, `x`, `i`, "2", `<esc>` `:wq` `<enter>`
+- Keys pressed: `:44`, `<enter>`, `e` `x` `i`, "2", `<esc>` `:wq`, `<enter>`
+> `:44` will jump to line 44 in which the error with `index1` resides. `e` will then jump to the end of `index1` which `x` will delete the 1. After, `i` will enter insert mode and typing in "2" will make the edit of `index2`. In order to save the edits and exit, `<esc>` `:wq`, `<enter>` is used.
+
 ---
 ## Run the tests, demonstrating that they now succeed
 ---
 ---
+![Image](success.png)
+- Keys pressed:
 
 ---
 ## Commit and push the resulting change to your Github account
 ---
 ---
+![Image](commit.png)
