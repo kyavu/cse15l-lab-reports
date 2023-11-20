@@ -23,6 +23,7 @@
 ## Run the tests, demonstrating that they fail
 ---
 ---
+![Image](test.png)
 
 ---
 ## Edit the code file to fix the failing test
