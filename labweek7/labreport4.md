@@ -54,7 +54,7 @@
 ![Image](gitinit.png)
 ![Image](cddir.png)
 ![Image](vimaddlistexam.png)
-![Image](vimlisttest.png)
 ![Image](committestexam.png)
+![Image](vimlisttest.png)
 ![Image](addtests.png)
 ![Image](committest.png)
