@@ -49,4 +49,10 @@
 ## Commit and push the resulting change to your Github account
 ---
 ---
-![Image](commit.png)
+![Image](mkdirlabweek7.png)
+![Image](branch.png)
+![Image](gitinit.png)
+![Image](cddir.png)
+![Image](committestexam.png)
+![Image](addtests.png)
+![Image](committest.png)
