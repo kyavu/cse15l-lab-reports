@@ -43,8 +43,8 @@
 ---
 ---
 ![Image](success.png)
-- Keys pressed:
-
+- Keys pressed: `bash test.sh`, `<enter>`
+> This will run the tests from `ListExamplesTest.java` and produces a success output as the error in `ListExamples.java` was fixed.
 ---
 ## Commit and push the resulting change to your Github account
 ---
