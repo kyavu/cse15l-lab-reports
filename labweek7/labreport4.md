@@ -50,11 +50,29 @@
 ---
 ---
 ![Image](mkdirlabweek7.png)
+- Keys pressed: `mkdir labweek7`, `<enter>`
+> This will create a new directory.
 ![Image](branch.png)
+- Keys pressed: `git branch -m main`, `<enter>`
+> This will stage the new directory for edits.
 ![Image](gitinit.png)
+- Keys pressed: `git init`, `<enter>`
+> This creates a new git repository.
 ![Image](cddir.png)
+- Keys pressed: `cd labweek7`, `<enter>`
+> This changes the directory to `labweek7`
 ![Image](vimaddlistexam.png)
+- Keys pressed: `git init`, `<enter>`
+> This creates a new git repository.
 ![Image](committestexam.png)
+- Keys pressed: `git init`, `<enter>`
+> This creates a new git repository.
 ![Image](vimlisttest.png)
+- Keys pressed: `git init`, `<enter>`
+> This creates a new git repository.
 ![Image](addtests.png)
+- Keys pressed: `git init`, `<enter>`
+> This creates a new git repository.
 ![Image](committest.png)
+- Keys pressed: `git init`, `<enter>`
+> This creates a new git repository.
