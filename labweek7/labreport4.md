@@ -3,7 +3,7 @@
 ---
 ---
 ![Image](logieng6.png)
-- Keys pressed: `Ctrl-C ssh cs15lfa23tg@ieng6.ucsd.edu`, `<enter>`
+- Keys pressed: `ssh cs15lfa23tg@ieng6.ucsd.edu`, `<enter>`
 > This logs into the ieng6 specific account.
 
 ---
