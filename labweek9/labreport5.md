@@ -22,7 +22,7 @@
   ![Image](files.png)
 - The directory is `lab7` in this case, with `ListExamples.java`, `test.sh`, and `ListExamplesTest.java` being some of the files that are in that directory.
 ---
-- The contents of each file before fixing the bug.
+> The contents of each file before fixing the bug.
   ![Image](beforebug.png)
 -
   ![Image](beforebug1.png)
@@ -31,7 +31,7 @@
 -
   ![Image](beforebug3.png)
 ---
-- The full command lines ran to trigger the bug.
+> The full command lines ran to trigger the bug.
 - Failure command line
 ```
 bash test.sh
@@ -64,5 +64,5 @@ Time: 0.004
 OK (2 tests)
 ```
 ---
-- A description of what to edit to fix the bug
+> A description of what to edit to fix the bug
 - The bug lied on line 44 where `index1` must be changed to `index2`. The `while` loop for `index1` was already created and `while(index2 < list2.size())` indicates the need for `index2` instead.
