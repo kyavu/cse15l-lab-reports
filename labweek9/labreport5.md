@@ -34,7 +34,7 @@
 > The full command lines ran to trigger the bug.
 - Failure command line
 
-  
+---  
 ```
 bash test.sh
 JUnit version 4.13.2
@@ -58,23 +58,19 @@ Tests run: 2,  Failures: 1
 
 ```
 
-
+---
 - Success command line
-
+---
   
 ```
-
 bash test.sh
 JUnit version 4.13.2
 ..
 Time: 0.004
 
 OK (2 tests)
-
 ```
-
 -
-
 ---
 > A description of what to edit to fix the bug
 - The bug lied on line 44 where `index1` must be changed to `index2`. The `while` loop for `index1` was already created and `while(index2 < list2.size())` indicates the need for `index2` instead.
