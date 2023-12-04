@@ -107,3 +107,13 @@
 ![Image](committest.png)
 - Keys pressed: `git commit -m "test.sh"`, `<enter>`
 > This commits and has a commit message (where both `ListExamplesTests.java` and `test.sh` were committed) to the repository.
+---
+
+---
+![Image](gitpush1.png)
+![Image](gitpush2.png)
+- Keys pressed: `git remote add origin git@github.com:kyavu/lab-7.git`, `<enter>`
+> This adds the URL from a new repository that was made.
+> 
+- Keys pressed: `git push -u origin main `, `<enter>`
+> This pushes the contents into the GitHub repository. Origin is the default repository name, the '-u' flag is upstream, and main is the branch.
