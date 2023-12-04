@@ -66,3 +66,10 @@ OK (2 tests)
 ---
 > A description of what to edit to fix the bug
 - The bug lied on line 44 where `index1` must be changed to `index2`. The `while` loop for `index1` was already created and `while(index2 < list2.size())` indicates the need for `index2` instead.
+
+---
+---
+## Part 2 - Reflection
+---
+---
+- Learning about vim was something new to me. I have always wanted to build a website and I found that vim can be used to do so. The shortcuts for vim, I thought was also interesting. I saw a classmate who had already know how to use vim, and he had been moving through the file very quickly. I also learned about the `find` command which made finding files a lot quicker. As someone who, admittedly, is not the most organized when it comes to my code or files, this was especially useful!
